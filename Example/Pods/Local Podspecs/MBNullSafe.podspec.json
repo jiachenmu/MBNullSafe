@@ -1,0 +1,22 @@
+{
+  "name": "MBNullSafe",
+  "version": "0.1.0",
+  "summary": "A short description of MBNullSafe.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jiachenmu@qq.com/MBNullSafe",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jiachenmu@qq.com": "jiachenmu@wecash.net"
+  },
+  "source": {
+    "git": "https://github.com/jiachenmu@qq.com/MBNullSafe.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MBNullSafe/Classes/**/*"
+}

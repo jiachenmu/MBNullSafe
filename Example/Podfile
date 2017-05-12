@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MBNullSafe_Example' do
+  pod 'MBNullSafe', :path => '../'
+
+  target 'MBNullSafe_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
