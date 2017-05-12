@@ -33,7 +33,7 @@
     if (obj) {
         [self safe_addObject:obj];
     }else {
-        NSLog(@"[NSMutableArray addObject: obj], obj couldn't be nil");
+        NullSafeLogFormatter(@"[NSMutableArray addObject: obj], obj couldn't be nil");
     }
 }
 
@@ -50,7 +50,7 @@
     if (obj) {
         [self safe_InsertObject:obj atIndex:index];
     }else {
-        NSLog(@"[NSMutableArray insertObject:atIndex:], obj couldn't be nil");
+        NullSafeLogFormatter(@"[NSMutableArray insertObject:atIndex:], obj couldn't be nil");
     }
 }
 
@@ -58,7 +58,7 @@
     if (index < self.count) {
         [self safe_RemoveObjectAtIndex:index];
     }else {
-        NSLog(@"[NSMutableArray removeObjectAtIndex], index is beyond bounds");
+        NullSafeLogFormatter(@"[NSMutableArray removeObjectAtIndex], index is beyond bounds");
     }
 }
 
@@ -67,10 +67,10 @@
         if (obj) {
             [self safe_ReplaceObjectAtIndex:index withObject:obj];
         }else {
-            NSLog(@"[NSMutableArray replaceObjectAtIndex: withObject:], object couldn't be nil");
+            NullSafeLogFormatter(@"[NSMutableArray replaceObjectAtIndex: withObject:], object couldn't be nil")
         }
     }else {
-        NSLog(@"[NSMutableArray replaceObjectAtIndex: withObject:], index is beyond bounds");
+        NullSafeLogFormatter(@"[NSMutableArray replaceObjectAtIndex: withObject:], index is beyond bounds")
     }
 }
 

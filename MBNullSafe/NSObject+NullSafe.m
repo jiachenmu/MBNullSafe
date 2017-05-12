@@ -12,6 +12,8 @@
 
 @implementation NSObject (NullSafe)
 
+#pragma mark - Method Swizzle
+
 - (void)swizzleMethod:(SEL)origSelector withMethod:(SEL)newSelector
 {
     Class class = [self class];
