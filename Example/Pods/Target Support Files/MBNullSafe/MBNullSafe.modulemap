@@ -1,6 +1,0 @@
-framework module MBNullSafe {
-  umbrella header "MBNullSafe-umbrella.h"
-
-  export *
-  module * { export * }
-}
