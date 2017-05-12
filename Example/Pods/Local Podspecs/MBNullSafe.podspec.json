@@ -1,18 +1,14 @@
 {
   "name": "MBNullSafe",
   "version": "0.1.0",
-  "summary": "A short description of MBNullSafe.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/jiachenmu@qq.com/MBNullSafe",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "summary": "Avoid NSMutableArray etc. Nil Exception",
+  "homepage": "https://github.com/jiachenmu/MBNullSafe",
+  "license": "MIT",
   "authors": {
-    "jiachenmu@qq.com": "jiachenmu@wecash.net"
+    "Manoboo": "jiachenmu@qq.com"
   },
   "source": {
-    "git": "https://github.com/jiachenmu@qq.com/MBNullSafe.git",
+    "git": "https://github.com/jiachenmu/MBNullSafe.git",
     "tag": "0.1.0"
   },
   "platforms": {

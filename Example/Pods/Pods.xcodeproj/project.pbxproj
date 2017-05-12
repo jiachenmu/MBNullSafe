@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07F130F0B338193CD0ACE2CC7E9C2230 /* NSMutableArray+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A29A13E9BF06631267E0B573DCD103D /* NSMutableArray+NullSafe.m */; };
 		1160DF946166D46AFC7B2F478CAC3946 /* Pods-MBNullSafe_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB100CE59EB6040F1C983688C9E5ACA /* Pods-MBNullSafe_Example-dummy.m */; };
-		19C9324D53E9F55619D3918D86E313EB /* MBNullSafe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B3EAD65BD3BF516B84E417F6DA0B846 /* MBNullSafe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46466CE01EC47C830036E176 /* NSMutableArray+NullSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 46466CDC1EC47C830036E176 /* NSMutableArray+NullSafe.h */; };
-		46466CE11EC47C830036E176 /* NSMutableArray+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 46466CDD1EC47C830036E176 /* NSMutableArray+NullSafe.m */; };
-		46466CE21EC47C830036E176 /* NSObject+NullSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 46466CDE1EC47C830036E176 /* NSObject+NullSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46466CE31EC47C830036E176 /* NSObject+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 46466CDF1EC47C830036E176 /* NSObject+NullSafe.m */; };
+		404FA8F4146782B211C589FDD0E4C830 /* MBNullSafe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 358E426EE9128255442DA2BBEB246893 /* MBNullSafe-dummy.m */; };
 		47C583AF1807E580758C8AFD26B66A46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5CFC84F49E559C448B42A4762081AA65 /* MBNullSafe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B3EAD65BD3BF516B84E417F6DA0B846 /* MBNullSafe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62812C55D9D63519D8456BBEAB816145 /* Pods-MBNullSafe_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E3A160D800E86D7EC38687CF14CAD38 /* Pods-MBNullSafe_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65EFC7A8CD957B5A9512C6206D3EFC69 /* Pods-MBNullSafe_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD680F622DC0D98ECEE72D2F125EF7C8 /* Pods-MBNullSafe_Tests-dummy.m */; };
 		77C9CDD0431732DF923D7357568CF4CD /* Pods-MBNullSafe_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BED8C4EB45241E224E1908B1856A18DF /* Pods-MBNullSafe_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8760539AB66C7B7B6B0F9F92F62052E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E322E4EA8E9E096D3AE3493E3DADC3A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E82C926C9C1722BFF136DB40BA881CFD /* MBNullSafe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 358E426EE9128255442DA2BBEB246893 /* MBNullSafe-dummy.m */; };
+		97B02C2013F66028CEF51C9FC7BE2F1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C238C34C267124F89D46793EF197C538 /* NSObject+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 76059DF74E60769BC3C73F68BECB5621 /* NSObject+NullSafe.m */; };
+		F3B531889920645DF21657713F144B17 /* NSMutableArray+NullSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 28BA5E73CC9B2E3891B7729FE9A5DAF9 /* NSMutableArray+NullSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8154A0021006599D868F81DA46BE8F1 /* NSObject+NullSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 835C20C2C9D523AB07F9B432AC3E500C /* NSObject+NullSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +27,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 215D85DDA70C18062E1232F4AE928C50;
+			remoteGlobalIDString = 14C9FA79DD73879C83FC41AFF7A2DBA3;
 			remoteInfo = MBNullSafe;
 		};
 /* End PBXContainerItemProxy section */
@@ -35,29 +35,29 @@
 /* Begin PBXFileReference section */
 		19F81D69CF40E864B189E6AC5753E2CF /* Pods-MBNullSafe_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBNullSafe_Tests-resources.sh"; sourceTree = "<group>"; };
 		1E3A160D800E86D7EC38687CF14CAD38 /* Pods-MBNullSafe_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MBNullSafe_Tests-umbrella.h"; sourceTree = "<group>"; };
+		28BA5E73CC9B2E3891B7729FE9A5DAF9 /* NSMutableArray+NullSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+NullSafe.h"; sourceTree = "<group>"; };
+		2A29A13E9BF06631267E0B573DCD103D /* NSMutableArray+NullSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+NullSafe.m"; sourceTree = "<group>"; };
 		2B3EAD65BD3BF516B84E417F6DA0B846 /* MBNullSafe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBNullSafe-umbrella.h"; sourceTree = "<group>"; };
-		2FCB5CF9E20A723B821F59E00CDC0733 /* Pods_MBNullSafe_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBNullSafe_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FCB5CF9E20A723B821F59E00CDC0733 /* Pods_MBNullSafe_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MBNullSafe_Example.framework; path = "Pods-MBNullSafe_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		358E426EE9128255442DA2BBEB246893 /* MBNullSafe-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBNullSafe-dummy.m"; sourceTree = "<group>"; };
 		360A2B29485BED6549859FFFC3B636CF /* Pods-MBNullSafe_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MBNullSafe_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		37C8A4FFAEF2BC00CD329C52E8590D05 /* MBNullSafe.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBNullSafe.xcconfig; sourceTree = "<group>"; };
 		3C8C3B22BF214A7BF9DA5128197F625E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42D6C7531E125E25DFB821031ABEE7BB /* Pods-MBNullSafe_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MBNullSafe_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46466CDC1EC47C830036E176 /* NSMutableArray+NullSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+NullSafe.h"; sourceTree = "<group>"; };
-		46466CDD1EC47C830036E176 /* NSMutableArray+NullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+NullSafe.m"; sourceTree = "<group>"; };
-		46466CDE1EC47C830036E176 /* NSObject+NullSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NullSafe.h"; sourceTree = "<group>"; };
-		46466CDF1EC47C830036E176 /* NSObject+NullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NullSafe.m"; sourceTree = "<group>"; };
-		4D47FA267EC8DD8C09BD2B8AE32E5CF6 /* Pods-MBNullSafe_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MBNullSafe_Tests.modulemap"; sourceTree = "<group>"; };
-		5A07BBFA96A2A6749873F16EF78AD0AA /* MBNullSafe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MBNullSafe.modulemap; sourceTree = "<group>"; };
+		4D47FA267EC8DD8C09BD2B8AE32E5CF6 /* Pods-MBNullSafe_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MBNullSafe_Tests.modulemap"; sourceTree = "<group>"; };
+		5A07BBFA96A2A6749873F16EF78AD0AA /* MBNullSafe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MBNullSafe.modulemap; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		70DDBABFBAD59A31A5B8658BAF3340C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74D9C34804F16F4D41E24D24E20BA06D /* Pods-MBNullSafe_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBNullSafe_Example-frameworks.sh"; sourceTree = "<group>"; };
+		76059DF74E60769BC3C73F68BECB5621 /* NSObject+NullSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NullSafe.m"; sourceTree = "<group>"; };
 		77E5B257B8B0A8B40D50E339E47CCB94 /* MBNullSafe-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBNullSafe-prefix.pch"; sourceTree = "<group>"; };
 		7B4D8CB733A076CBB85686A6F05CA060 /* Pods-MBNullSafe_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBNullSafe_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7FB928A725248048E2CA0025EEC8720D /* Pods-MBNullSafe_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBNullSafe_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		835C20C2C9D523AB07F9B432AC3E500C /* NSObject+NullSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+NullSafe.h"; sourceTree = "<group>"; };
 		905FD44502376097898BE372EE7E9A7A /* Pods-MBNullSafe_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBNullSafe_Example-resources.sh"; sourceTree = "<group>"; };
 		918571CAB135CBE12619A2DFB0CA6C9B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A019F7D7FCA739D3E784D5CC1BCD49C /* Pods_MBNullSafe_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBNullSafe_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A019F7D7FCA739D3E784D5CC1BCD49C /* Pods_MBNullSafe_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MBNullSafe_Tests.framework; path = "Pods-MBNullSafe_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD680F622DC0D98ECEE72D2F125EF7C8 /* Pods-MBNullSafe_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MBNullSafe_Tests-dummy.m"; sourceTree = "<group>"; };
 		AFE167E6E4A01D9BC0303C67FB9E0E80 /* Pods-MBNullSafe_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBNullSafe_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B093B4219B81C26364F8F5C6ECCE6348 /* Pods-MBNullSafe_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MBNullSafe_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -66,8 +66,8 @@
 		CF143268A9467D316FD6586F1D72B1CA /* Pods-MBNullSafe_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBNullSafe_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D7AE67FF8B8A4591CC0E05148B5F0CDA /* Pods-MBNullSafe_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MBNullSafe_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		ECB100CE59EB6040F1C983688C9E5ACA /* Pods-MBNullSafe_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MBNullSafe_Example-dummy.m"; sourceTree = "<group>"; };
-		ED83FCEEB1E00F957AC745A253B74438 /* MBNullSafe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBNullSafe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE9CD0B2C08F52B9279ECB74263DC7B4 /* Pods-MBNullSafe_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MBNullSafe_Example.modulemap"; sourceTree = "<group>"; };
+		ED83FCEEB1E00F957AC745A253B74438 /* MBNullSafe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBNullSafe.framework; path = MBNullSafe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9CD0B2C08F52B9279ECB74263DC7B4 /* Pods-MBNullSafe_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MBNullSafe_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,19 +79,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		95894721410AB03DBD8949AF922A7514 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97B02C2013F66028CEF51C9FC7BE2F1D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99833DA89D9454BC5B3F389C5B6BDC0F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				47C583AF1807E580758C8AFD26B66A46 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5BCA9AA1A65D8D62AD5ABB3164D9B46 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E322E4EA8E9E096D3AE3493E3DADC3A7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +125,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		37AE5FD6CE3C36AE36611E92713E50B1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28BA5E73CC9B2E3891B7729FE9A5DAF9 /* NSMutableArray+NullSafe.h */,
+				2A29A13E9BF06631267E0B573DCD103D /* NSMutableArray+NullSafe.m */,
+				835C20C2C9D523AB07F9B432AC3E500C /* NSObject+NullSafe.h */,
+				76059DF74E60769BC3C73F68BECB5621 /* NSObject+NullSafe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -146,22 +158,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A3B45CBDA2B5E9F34EE2888B69F693C9 /* Classes */ = {
+		AEC4C306FBF0ADCAF374E24EB3690773 /* MBNullSafe */ = {
 			isa = PBXGroup;
 			children = (
-				46466CDC1EC47C830036E176 /* NSMutableArray+NullSafe.h */,
-				46466CDD1EC47C830036E176 /* NSMutableArray+NullSafe.m */,
-				46466CDE1EC47C830036E176 /* NSObject+NullSafe.h */,
-				46466CDF1EC47C830036E176 /* NSObject+NullSafe.m */,
+				37AE5FD6CE3C36AE36611E92713E50B1 /* Classes */,
 			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		AF92561C4D6F6C73FC308DF52776E0F0 /* MBNullSafe */ = {
-			isa = PBXGroup;
-			children = (
-				A3B45CBDA2B5E9F34EE2888B69F693C9 /* Classes */,
-			);
+			name = MBNullSafe;
 			path = MBNullSafe;
 			sourceTree = "<group>";
 		};
@@ -176,7 +178,7 @@
 		C109AA851A4BCBD589FF16C47C570033 /* MBNullSafe */ = {
 			isa = PBXGroup;
 			children = (
-				AF92561C4D6F6C73FC308DF52776E0F0 /* MBNullSafe */,
+				AEC4C306FBF0ADCAF374E24EB3690773 /* MBNullSafe */,
 				E929D65058E5FB4F992D29D648C66314 /* Support Files */,
 			);
 			name = MBNullSafe;
@@ -234,21 +236,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		5C4AB8DA673E4680FBED0BF3B1875AD2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFC84F49E559C448B42A4762081AA65 /* MBNullSafe-umbrella.h in Headers */,
+				F3B531889920645DF21657713F144B17 /* NSMutableArray+NullSafe.h in Headers */,
+				F8154A0021006599D868F81DA46BE8F1 /* NSObject+NullSafe.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76A26008251CD42020D7D5100DEACF70 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				77C9CDD0431732DF923D7357568CF4CD /* Pods-MBNullSafe_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C4D3103DCF8C447BF5A1C4CFE7ED9E6D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46466CE21EC47C830036E176 /* NSObject+NullSafe.h in Headers */,
-				46466CE01EC47C830036E176 /* NSMutableArray+NullSafe.h in Headers */,
-				19C9324D53E9F55619D3918D86E313EB /* MBNullSafe-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,13 +265,13 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		215D85DDA70C18062E1232F4AE928C50 /* MBNullSafe */ = {
+		14C9FA79DD73879C83FC41AFF7A2DBA3 /* MBNullSafe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C268DBFFA3A61F6C51291694FADA65C6 /* Build configuration list for PBXNativeTarget "MBNullSafe" */;
+			buildConfigurationList = EAB62693630AA15EDABA5BF4AE96A451 /* Build configuration list for PBXNativeTarget "MBNullSafe" */;
 			buildPhases = (
-				254855AB6D962F2D8FE542166209C7AC /* Sources */,
-				B5BCA9AA1A65D8D62AD5ABB3164D9B46 /* Frameworks */,
-				C4D3103DCF8C447BF5A1C4CFE7ED9E6D /* Headers */,
+				59F193956D5320BA1CA0ED393E8C0759 /* Sources */,
+				95894721410AB03DBD8949AF922A7514 /* Frameworks */,
+				5C4AB8DA673E4680FBED0BF3B1875AD2 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -336,7 +338,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				215D85DDA70C18062E1232F4AE928C50 /* MBNullSafe */,
+				14C9FA79DD73879C83FC41AFF7A2DBA3 /* MBNullSafe */,
 				55FE2674DB547AFE86EAE6F7D1F1E70B /* Pods-MBNullSafe_Example */,
 				FA296082367036D44706EA6A58AC5C45 /* Pods-MBNullSafe_Tests */,
 			);
@@ -344,16 +346,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		254855AB6D962F2D8FE542166209C7AC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46466CE31EC47C830036E176 /* NSObject+NullSafe.m in Sources */,
-				E82C926C9C1722BFF136DB40BA881CFD /* MBNullSafe-dummy.m in Sources */,
-				46466CE11EC47C830036E176 /* NSMutableArray+NullSafe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		35C67573D97F23D965B971CC68C72B6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -370,50 +362,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		59F193956D5320BA1CA0ED393E8C0759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404FA8F4146782B211C589FDD0E4C830 /* MBNullSafe-dummy.m in Sources */,
+				07F130F0B338193CD0ACE2CC7E9C2230 /* NSMutableArray+NullSafe.m in Sources */,
+				C238C34C267124F89D46793EF197C538 /* NSObject+NullSafe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		D915C00AFE895698022681D6427566C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBNullSafe;
-			target = 215D85DDA70C18062E1232F4AE928C50 /* MBNullSafe */;
+			target = 14C9FA79DD73879C83FC41AFF7A2DBA3 /* MBNullSafe */;
 			targetProxy = 03210ED9F2126E76CD36D37D049227F9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2591089A9F1194ED0A6D37C605653D39 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37C8A4FFAEF2BC00CD329C52E8590D05 /* MBNullSafe.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MBNullSafe/MBNullSafe-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MBNullSafe/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MBNullSafe/MBNullSafe.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MBNullSafe;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -498,6 +468,38 @@
 			};
 			name = Debug;
 		};
+		5A5A88D9F6252537F9C88F92B884BFD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37C8A4FFAEF2BC00CD329C52E8590D05 /* MBNullSafe.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBNullSafe/MBNullSafe-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBNullSafe/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBNullSafe/MBNullSafe.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MBNullSafe;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		5BF6CD36C2D964EEAA093846C8769B5A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7FB928A725248048E2CA0025EEC8720D /* Pods-MBNullSafe_Example.debug.xcconfig */;
@@ -526,6 +528,38 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_MBNullSafe_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DEF592B6DEC604429672BF0D2B9A35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37C8A4FFAEF2BC00CD329C52E8590D05 /* MBNullSafe.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBNullSafe/MBNullSafe-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBNullSafe/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBNullSafe/MBNullSafe.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MBNullSafe;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -577,38 +611,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		73AF6B09170F9EA9C946542A53EE0919 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37C8A4FFAEF2BC00CD329C52E8590D05 /* MBNullSafe.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MBNullSafe/MBNullSafe-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MBNullSafe/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MBNullSafe/MBNullSafe.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MBNullSafe;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		94B22C33B684BB5234296FE5E4674EE3 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -712,11 +714,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C268DBFFA3A61F6C51291694FADA65C6 /* Build configuration list for PBXNativeTarget "MBNullSafe" */ = {
+		EAB62693630AA15EDABA5BF4AE96A451 /* Build configuration list for PBXNativeTarget "MBNullSafe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				73AF6B09170F9EA9C946542A53EE0919 /* Debug */,
-				2591089A9F1194ED0A6D37C605653D39 /* Release */,
+				5DEF592B6DEC604429672BF0D2B9A35E /* Debug */,
+				5A5A88D9F6252537F9C88F92B884BFD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
