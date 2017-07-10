@@ -16,17 +16,17 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         id obj = [[self alloc] init];
-        [obj swizzleMethod:@selector(setValue:forKey:) withMethod:@selector(safe_setValue:forKey:)];
+        [obj swizzleMethod:@selector(setObject:forKey:) withMethod:@selector(safe_setObject:forKey:)];
         
     });
     
 }
 
-- (void)safe_setValue:(id)value forKey:(NSString *)key {
+- (void)safe_setObject:(id)value forKey:(NSString *)key {
     if (value) {
-        [self safe_setValue:value forKey:key];
+        [self safe_setObject:value forKey:key];
     }else {
-        NullSafeLogFormatter(@"[NSMutableDictionary setValue: forKey:], value cannot be nil")
+        NullSafeLogFormatter(@"[NSMutableDictionary setObject: forKey:], object cannot be nil")
     }
 }
 
